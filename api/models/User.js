@@ -28,7 +28,7 @@ module.exports = {
 
 		encryptedPassword: {
 			type: 'string'
-		}
+		},
 
 		toJSON: function () {
 			var obj = this.toObject();
