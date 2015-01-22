@@ -9,9 +9,7 @@ module.exports = {
 
 	// This loads the sign-up page --> new.ejs
 	'new': function (req, res) {
-		res.locals.flash = _.clone(req.session.flash);
 		res.view();
-		req.session.flash = {};
 	},
 
 	// Create a User with the params sent from
